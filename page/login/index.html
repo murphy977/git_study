@@ -9,6 +9,30 @@
 
 <body>
   index.html hello world nihao
+  <!-- 
+    查看暂存区 git ls-files -s
+    查看版本库 git log --online
+    工作区 -> 暂存区   git add .
+    暂存区 -> 版本库 git commit -m "提交信息"
+    版本库 -> 暂存区 git reset --hard 版本号
+    暂存区 -> 工作区 git restore .
+    版本库 -> 远程仓库 git push
+    远程仓库 -> 版本库 git pull
+    从暂存区移除文件 git rm --cached 文件名
+    ---------------------------------------------------------
+    创建和切换指针
+      git branch 分支名
+      git checkout 分支名
+      git branch -M 分支名  //重命名分支
+    删除分支
+      git branch -d 分支名
+    ---------------------------------------------------------
+    分支-合并与删除
+      1、切回到要合入的分支上：git checkout master
+      2、执行合并操作：git merge d分支名
+      3、删除分支：git branch -d 分支名
+   
+    -->
 </body>
 
 </html>
